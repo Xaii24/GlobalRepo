@@ -1,0 +1,94 @@
+/* Style for the industries section */
+#item-8 .industries-section {
+    font-size: 14px;
+    margin-top: -993px; /* Keeps the positioning in place */
+    margin-right: -800px; /* Keeps the positioning in place */
+    position: relative; /* Make sure it remains in place */
+    z-index: 1; /* Ensure it's on top of other elements */
+}
+/* Target only the item name for item 6 */
+.item-8.item-name {
+    position: relative;
+    left: 90px; /* Move the name to the right */
+    z-index: -1;
+}
+/* Individual item styling */
+.items-grid .item#item-8 {
+    position: relative;
+    margin-right: 315px; /* Moves the item with id="item-5" 50px to the right */
+}
+/* 
+/* Apply only within the grid container */
+.items-grid #item-9::after {
+    content: ""; /* Empty content for the pseudo-element */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 210px; /* Height of the colored section */
+    background-color: #eee5f6; /* Light gray color */
+    z-index: -1; /* Places it behind the text */
+}
+/* Target only the item name for item 6 */
+.item-9.item-name {
+    position: relative;
+    left: 150px; /* Move the name to the right */
+    z-index: -1;
+}
+#item-9 .industries-section {
+    font-size: 14px;
+    margin-top: -835px; /* Keeps the positioning in place */
+    margin-right: -800px; /* Keeps the positioning in place */
+    position: relative; /* Make sure it remains in place */
+    z-index: 1; /* Ensure it's on top of other elements */
+}
+.card-adjust {
+    position: relative;
+    top: -40px; /* Moves the element 20px upwards */
+}
+.card-first {
+    position: relative;
+    top: 40px; /* Moves the element 20px upwards */
+}
+/* This is kits below*/
+/* This is kits below*/
+/* This is kits below*/
+.items-grid .item#item-10 {
+    position: relative;
+    margin-right: 315px;
+}
+.item-10.item-name {
+    position: relative;
+    left: 50px; /* Move the name to the right */
+    z-index: -1;
+}
+#item-10 .details-content {
+    margin-left: 0px; /* Move the name to the right */
+    margin-top: -50px;
+    position: relative;
+}
+.card-adjust-1 {
+    position: relative;
+    top: 5px; /* Moves the element 20px upwards */
+}
+#item-11 .details-content {
+    position: relative;
+    margin-top: 0px;
+    margin-right: 50px;
+}
+.item-11.item-name {
+    position: relative;
+    left: 100px; /* Move the name to the right */
+    z-index: -1;
+}
+.card-adjust3 {
+    position: relative;
+    top: -20px; /* Moves the element 20px upwards */
+}
+#item-11 .industries-section {
+    font-size: 14px;
+    margin-top: -645px; /* Keeps the positioning in place */
+    margin-right: -780px; /* Keeps the positioning in place */
+    position: relative; /* Make sure it remains in place */
+    z-index: 1; /* Ensure it's on top of other elements */
+}

@@ -1,0 +1,364 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner-image {
+    display: relative; /* Make the image a block-level element */
+    width: 100vw; /* Full viewport width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: none; /* Remove any max-width restriction */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+}
+.container {
+    width: 100vw; /* Full viewport width */
+    height: 500px; /* Set a height for the banner */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the background image */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+    max-width: none; /* Remove any max-width restriction */
+    z-index: 0.5;
+}
+.motion-text {
+    position: absolute; /* Position it absolutely within the container */
+    top: 50%; /* Vertically center the text */
+    left: 36.5%; /* Horizontally center the text */
+    transform: translate(-50%, -50%); /* Adjust for perfect centering */
+    font-size: 78px; /* Adjust text size */
+    color: white; /* Change the text color as needed */
+    z-index: 1; /* Ensure the text is on top of the background */
+    white-space: nowrap; /* Prevent text from wrapping */
+    font-family: "DM Sans", sans-serif; /* Use DM Sans font */
+}
+.motion-text1 {
+    position: absolute; /* Position it absolutely within the container */
+    top: 50.1%; /* Vertically center the text */
+    left: 22.9%; /* Horizontally center the text */
+    transform: translate(-50%, -50%); /* Adjust for perfect centering */
+    font-size: 78px; /* Adjust text size */
+    color: white; /* Change the text color as needed */
+    font-weight: bold; /* Optional: makes the text bold */
+    z-index: 1; /* Ensure the text is on top of the background */
+    white-space: nowrap; /* Prevent text from wrapping */
+    font-family: "Roboto", sans-serif; /* Apply the Roboto font family */
+}
+.motion-text2 {
+    position: absolute; /* Position it absolutely within the container */
+    top: 50.1%; /* Vertically center the text */
+    left: 51.4%; /* Horizontally center the text */
+    transform: translate(-50%, -50%); /* Adjust for perfect centering */
+    font-size: 78px; /* Adjust text size */
+    color: white; /* Change the text color as needed */
+    font-weight: bold; /* Optional: makes the text bold */
+    z-index: 1; /* Ensure the text is on top of the background */
+    white-space: nowrap; /* Prevent text from wrapping */
+    font-family: "Roboto", sans-serif; /* Apply the Roboto font family */
+}
+.motion-text3 {
+    position: absolute; /* Position it absolutely within the container */
+    top: 49.5%; /* Vertically center the text */
+    left: 63.3%; /* Horizontally center the text */
+    transform: translate(-50%, -50%); /* Adjust for perfect centering */
+    font-size: 78px; /* Adjust text size */
+    color: white; /* Change the text color as needed */
+    z-index: 1; /* Ensure the text is on top of the background */
+    white-space: nowrap; /* Prevent text from wrapping */
+    font-family: "DM Sans", sans-serif; /* Use DM Sans font */
+}
+.header-text {
+    position: fixed; /* Absolute positioning for precise placement */
+    top: 0; /* Anchor to the top of the viewport */
+    left: 0;
+    width: 100%; /* Full width */
+    z-index: 2; /* Keep it on top of other elements */
+    padding: 10px; /* Adjust padding as needed */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box; /* Ensures padding doesn’t affect width */
+    background-color: transparent; /* Start with a transparent background */
+    transition: background-color 0.3s ease; /* Smooth transition for background change */
+}
+.header-text.scrolled {
+    background-color: rgba(
+        200,
+        182,
+        205,
+        0.937
+    ); /* Semi-transparent background when scrolled */
+    z-index: 1; /* Keep it on top of other elements */
+}
+.fixed-banneritems1 {
+    position: fixed; /* Fixes the position relative to the viewport */
+    top: 0; /* Aligns it to the top of the page */
+    left: 0; /* Aligns it to the left */
+    width: 100%; /* Makes the banner stretch across the full width */
+    height: 69px; /* Height of the banner (adjust as needed) */
+    background-color: rgba(200, 182, 205, 0.937);
+    z-index: 2; /* Ensures the banner is on top of other content */
+    opacity: 0.9.5;
+}
+.header-text span {
+    margin: 0 13px; /* Reduced horizontal spacing to 3px */
+    font-size: 14px; /* Set a font size */
+    color: white; /* Set text color to white */
+    font-weight: bold; /* Make the text bold */
+    right: 50px; /* Move h2 slightly to the right */
+}
+.logo-image1 {
+    position: fixed;
+    top: -5px; /* Adjust this to lower the logo */
+    left: 70px; /* Add this if you want to adjust its horizontal position */
+    width: 310px; /* Decrease the width */
+    max-height: 80px; /* Optional: Set a max height */
+    box-sizing: border-box; /* Ensures padding doesn’t affect width */
+    z-index: 4;
+}
+.logo-image {
+    position: fixed;
+    top: -5px; /* Adjust this to lower the logo */
+    left: 70px; /* Add this if you want to adjust its horizontal position */
+    width: 230px; /* Decrease the width */
+    max-height: 80px; /* Optional: Set a max height */
+    box-sizing: border-box; /* Ensures padding doesn’t affect width */
+    z-index: 4;
+    /* -webkit-animation: tracking-in-contract-bck-bottom 3s
+        cubic-bezier(0.215, 0.61, 0.355, 1) both;
+    animation: tracking-in-contract-bck-bottom 4s
+        cubic-bezier(0.215, 0.61, 0.355, 1) both; */
+}
+/* Define the animation */
+@-webkit-keyframes tracking-in-contract-bck-bottom {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(400px) translateY(300px);
+        transform: translateZ(400px) translateY(300px);
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        -webkit-transform: translateZ(0) translateY(0);
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes tracking-in-contract-bck-bottom {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(400px) translateY(300px);
+        transform: translateZ(400px) translateY(300px);
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        -webkit-transform: translateZ(0) translateY(0);
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
+.contact-us {
+    padding: 5px 10px;
+    background-color: white; /* White background for button effect */
+    color: #333; /* Adjust text color to stand out on white */
+    border-radius: 4px; /* Rounded corners for button-like appearance */
+    cursor: pointer;
+    border: 1px solid transparent; /* Optional: adds a subtle outline */
+    background-color: rgba(0, 0, 0, 0.5); /* Soft black, semi-transparent */
+    right: 25px; /* Move h2 slightly to the right */
+
+    /* Darker purple, semi-transparent */
+}
+.About-Us {
+    cursor: pointer;
+    right: 14px; /* Move h2 slightly to the right */
+}
+/* Optional: Add a hover effect */
+.contact-us:hover {
+    background-color: #f0f0f0; /* Slightly darker background on hover */
+    color: #007bff; /* Adjust color if needed for emphasis */
+}
+.solutions-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 600px; /* Increase this value to move the section down */
+}
+.solutions-section h2 {
+    font-size: 40px;
+    margin: 0;
+    font-weight: 310; /* Bold weight */
+    color: #333; /* Change color as needed */
+    margin-top: -980px; /* Adjust as needed to raise the element */
+    position: relative;
+    left: 155px; /* Move h2 slightly to the right */
+    font-family: "Kanit", sans-serif; /* Apply Kanit font */
+    font-weight: bold; /* Make the font bold */
+    color: var(--clr-secondary-400);
+}
+.see-all-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #b06bf4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: -970px; /* Adjust as needed to raise the element */
+    line-height: 1.2; /* Adjust as needed */
+    position: relative;
+    right: 128px; /* Move h2 slightly to the right */
+}
+.see-all-button:hover {
+    background-color: #50a564; /* Darker color on hover */
+}
+.blur-image-container {
+    position: relative; /* Ensure it stays in the flow */
+    height: 650px; /* Set desired height for container */
+    width: 100%; /* Full width of the parent element */
+    overflow: hidden; /* Hide overflow for a clean look */
+    margin-top: -410px; /* Adjust as needed to align with other elements */
+    right: -3px; /* Move h2 slightly to the right */
+}
+.blur-image {
+    width: 100%; /* Full width inside container */
+    height: 100%; /* Match container height */
+    object-fit: cover; /* Keeps the image covering the container without distortion */
+    filter: blur(10px); /* Blur effect */
+}
+.card {
+    position: absolute; /* Position the card absolutely within the container */
+    height: 45%; /* Match container height */
+    width: 390px; /* Set a width for the card */
+    top: 69%; /* Adjust this value to position the card vertically */
+    left: 20%; /* Center the card horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    background-color: white; /* Background color of the card */
+    padding: 20px; /* Space inside the card */
+    box-shadow: 0 15px 16x rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+.card1 {
+    position: absolute; /* Position the card absolutely within the container */
+    height: 45%; /* Match container height */
+    width: 390px; /* Set a width for the card */
+    top: 69%; /* Adjust this value to position the card vertically */
+    left: 50%; /* Center the card horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    background-color: white; /* Background color of the card */
+    padding: 20px; /* Space inside the card */
+    box-shadow: 0 15px 16x rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+.card2 {
+    position: absolute; /* Position the card absolutely within the container */
+    height: 45%; /* Match container height */
+    width: 390px; /* Set a width for the card */
+    top: 69%; /* Adjust this value to position the card vertically */
+    left: 80%; /* Center the card horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    background-color: white; /* Background color of the card */
+    padding: 20px; /* Space inside the card */
+    box-shadow: 0 15px 16x rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+.card-title {
+    position: absolute; /* Position the card absolutely within the container */
+    top: 10%; /* Adjust this value to position the card vertically */
+    left: 23%; /* Center the card horizontally */
+    color: rgb(23, 4, 4); /* Set text color to white */
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+}
+.card-title1 {
+    position: absolute; /* Position the card absolutely within the container */
+    top: 10%; /* Adjust this value to position the card vertically */
+    left: 32%; /* Center the card horizontally */
+    color: rgb(23, 4, 4); /* Set text color to white */
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+}
+.card-title2 {
+    position: absolute; /* Position the card absolutely within the container */
+    top: 10%; /* Adjust this value to position the card vertically */
+    left: 23%; /* Center the card horizontally */
+    color: rgb(23, 4, 4); /* Set text color to white */
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+}
+.card-content {
+    position: absolute; /* Position the card absolutely within the container */
+    top: 28%; /* Adjust this value to position the card vertically */
+    left: 10%; /* Center the card horizontally */
+    color: rgb(23, 4, 4); /* Set text color to white */
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+}
+.card-content1 {
+    position: absolute; /* Position the card absolutely within the container */
+    top: 28%; /* Adjust this value to position the card vertically */
+    left: 10%; /* Center the card horizontally */
+    color: rgb(23, 4, 4); /* Set text color to white */
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+}
+.icon {
+    position: absolute; /* Position the icon absolutely within the container */
+    font-size: 30px;
+    top: -30px; /* Adjust this value to position the icon vertically */
+    left: 45%; /* Center the icon horizontally */
+    color: rgba(200, 182, 205, 0.937); /* Icon color */
+    background-color: white; /* White background for the icon */
+    padding: 1px; /* Add some padding for spacing around the icon */
+    border-radius: 20%; /* Make the background circular */
+    box-shadow: 0 4px 6px rgba(77, 42, 232, 0.1); /* Add a subtle shadow for better visibility */
+}
+.blur-text {
+    position: absolute; /* Position the card absolutely within the container */
+    top: 15%; /* Adjust this value to position the card vertically */
+    left: 50%; /* Center the card horizontally */
+    font-size: 50px;
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    color: rgb(23, 4, 4); /* Set text color to white */
+    font-family: "Montserrat", sans-serif;
+}
+.blur-text1 {
+    position: absolute; /* Position the card absolutely within the container */
+    top: 30%; /* Adjust this value to position the card vertically */
+    left: 50%; /* Center the card horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    color: rgb(23, 4, 4); /* Set text color to white */
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.search-button {
+    font-size: 15px; /* Adjust the size of the search icon */
+    color: white; /* Set the color of the icon */
+    cursor: pointer; /* Show pointer on hover */
+    display: inline-flex; /* Inline flex for alignment */
+    align-items: center; /* Vertically align icon */
+    margin-left: -75px;
+}
+.search-input {
+    display: none; /* Start hidden */
+    width: 150px;
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: relative;
+    top: 55px; /* Position it below the header */
+    left: 40px;
+    transition: top 0.3s ease; /* Smooth transition */
+}
+.search-input.show {
+    position: relative;
+    display: block; /* Make it visible */
+    margin-top: 15px; /* Adjust position as needed when shown */
+    margin-left: 1230px; /* Adjust position as needed when shown */
+}

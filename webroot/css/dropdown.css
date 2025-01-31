@@ -1,0 +1,86 @@
+/* Ensure Products spans do not push the text up */
+.header-text span {
+    position: relative;
+}
+/* Dropdown container styling */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer; /* Make cursor turn into a pointer */
+}
+/* Main dropdown menu - initially hidden */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position the dropdown below the 'Products' text */
+    background-color: #fff9f0; /* Light background */
+    width: 250px;
+    height: 560px;
+    border-radius: 6px;
+    text-align: right; /* Align menu items to the right */
+    cursor: default; /* Default cursor */
+    animation: fadeIn 0.3s ease-in-out; /* Smooth dropdown appearance */
+}
+/* Nested submenu */
+.dropdown-menu .submenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* General styling for all dropdown links */
+.dropdown-menu li {
+    padding-left: 0; /* No padding */
+    margin-left: 0; /* No margin */
+    text-align: left; /* Align text to the left */
+    list-style-type: none; /* Remove bullet points */
+}
+/* General styling for links, i.e., surgical, glove items */
+.dropdown-menu li a {
+    transition: color 0.3s ease, background-color 0.3s ease; /* Add smooth transition for background color */
+    color: #896da1; /* Color when hovered */
+    display: inline-block; /* Make the anchor tag a block element */
+    text-align: left; /* Align text to the left */
+    font-size: 14px; /* Adjust font size */
+    padding: 2px 8px; /* Minimal padding to reduce space between items */
+    margin: 0; /* No extra margin */
+    margin-bottom: -2px; /* Reduce gap between items with negative margin */
+}
+/* Hover effect for all links */
+.dropdown-menu li a:hover {
+    color: #b06bf4; /* Color when hovered */
+    background-color: #d8d8f1; /* Light gray background on hover */
+    /* Light purple rectangle on hover */
+    text-decoration: underline; /* Optional underline */
+}
+/* Show dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+    display: block; /* Show menu */
+}
+/* Styling for non-clickable item like "Gloves" */
+.dropdown-menu .non-clickable {
+    color: rgb(11, 11, 11); /* Default color */
+    font-weight: bold; /* Optional: make it stand out */
+    pointer-events: none; /* Disable click events */
+    margin-left: 57px; /* Move it slightly to the right */
+    font-size: 20px; /* Adjust the font size */
+    cursor: default; /* Default cursor */
+    margin-bottom: 9px; /* Reduce gap between items with negative margin */
+    font-family: var(--lora-font, "Lora"), serif; /* Use a variable or fallback */
+}
+:root {
+    --clr-gradient-700: #5d5f61;
+}
+.dropdown-section.gowns {
+    position: relative;
+    margin-left: 0px; /* Adjust the value as needed */
+    margin-top: -10px;
+}
+.dropdown-section.misc {
+    position: relative;
+    margin-top: 10px;
+}
+.dropdown-section {
+    border-bottom: 1px solid #ccc; /* Light gray line */
+    margin-bottom: 10px; /* Space below the line */
+    padding-bottom: 5px; /* Space inside the section */
+}

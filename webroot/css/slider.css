@@ -1,0 +1,155 @@
+/* Image Slider Styles */
+/* Vanta.js background should be behind the slider */
+#vanta-background {
+    position: fixed; /* Ensure it's fixed in place and not affected by scrolling */
+    top: 0; /* Align it to the top of the page */
+    left: 0; /* Align it to the left of the page */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    z-index: -9999;
+}
+.image-slider {
+    position: relative;
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    overflow: hidden; /* Hide any overflow from the slides */
+    top: -490px; /* Move the slider up by 490px */
+    right: -15px; /* Move h2 slightly to the right */
+    z-index: 1; /* Ensure the slider is above the Vanta background */
+}
+.slider-container {
+    display: flex;
+    transition: transform 0.8s ease;
+}
+.slide {
+    position: relative; /* Keep relative positioning for text overlay */
+    min-width: calc(33.33% - 20px);
+    height: 390px; /* Fixed height for consistency */
+    margin: 0 10px;
+    overflow: hidden; /* Prevent content from overflowing */
+}
+.slide img {
+    width: 100%; /* Fill the slide */
+    height: 100%; /* Ensure images occupy the full height */
+    object-fit: cover; /* Maintain aspect ratio without cutting off */
+    display: block; /* Remove bottom space under the image */
+    cursor: pointer; /* Show pointer cursor over the image */
+}
+/* Gradient Overlay */
+.slide::after {
+    content: ""; /* Necessary for pseudo-element */
+    position: absolute; /* Position it absolutely */
+    bottom: 0; /* Align with the bottom of the slide */
+    left: 0; /* Align with the left of the slide */
+    width: 100%; /* Cover the entire width */
+    height: 130%; /* Adjust this value to control the height of the gradient */
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 255, 0.5),
+        rgba(0, 0, 255, 0.2) 20%,
+        rgba(0, 0, 255, 0) 80% /* Fade to transparent at the top */
+    );
+    z-index: 1; /* Ensure it appears above the image */
+}
+/* Text Styles */
+.slide-text {
+    position: relative;
+    bottom: 50px; /* Position text at the bottom */
+    left: 20px; /* Position text to the left */
+    color: rgb(238, 234, 240); /* Text color */
+    font-size: 30px; /* Font size */
+    font-weight: bold; /* Bold text */
+    border-radius: 5px; /* Rounded corners */
+    max-width: 90%; /* Prevent text from overflowing */
+    z-index: 2; /* Ensure the text is above the overlay */
+    transition: bottom 0.3s ease; /* Smooth transition for movement */
+}
+.hover-text {
+    position: relative; /* Position the hover text over the image */
+    bottom: 150px; /* Position text at the bottom */
+    left: 5px; /* Adjust position as needed */
+    color: #fff; /* Text color */
+    padding: 10px; /* Padding around the hover text */
+    border-radius: 5px; /* Rounded corners */
+    opacity: 0; /* Start hidden */
+    transition: opacity 0.3s ease; /* Smooth opacity transition */
+    z-index: 3; /* Ensure hover text is above other content */
+    transition: opacity 0.3s ease, bottom 0.3s ease; /* Smooth transitions */
+    animation: slide-up 2s;
+    font-weight: bold; /* Bold text */
+    line-height: 200px;
+    transition: line-height 0.8s ease; /* Smooth line-height transition */
+    font-size: 15px; /* Font size */
+}
+/* Show hover text on slide hover */
+.slide:hover .hover-text,
+.slide:hover .read-more {
+    opacity: 1; /* Show hover text on slide hover */
+    line-height: 25px;
+}
+.read-more1 {
+    position: relative;
+    bottom: 170px; /* Position as needed */
+    right: -280px; /* Adjust position to the right */
+    color: #f8bb06;
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    z-index: 3;
+    font-weight: bold;
+    line-height: 200px;
+    font-size: 19px;
+    opacity: 1; /* Show hover text on slide hover */
+    cursor: pointer; /* Show pointer cursor over the image */
+}
+.read-more {
+    position: relative;
+    bottom: 168px; /* Position as needed */
+    right: -230px; /* Adjust position to the right */
+    color: #f8bb06;
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    z-index: 3;
+    font-weight: bold;
+    line-height: 200px;
+    font-size: 17px;
+    opacity: 1; /* Show hover text on slide hover */
+}
+.slide-arrow {
+    position: absolute;
+    right: 10px; /* Adjust position */
+    bottom: -5px;
+    font-size: 24px; /* Adjust size */
+    color: #f8bb06;
+    opacity: 50;
+    z-index: 3;
+}
+/* Button Styles */
+button.prev,
+button.next {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for centering */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: #f8bb06;
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor */
+    display: flex; /* Flex display for centering */
+    justify-content: center; /* Center content */
+    align-items: center; /* Center content */
+    font-size: 36px; /* Font size for arrows */
+    width: 60px; /* Width for buttons */
+    height: 60px; /* Height for buttons */
+    border-radius: 50%; /* Circular shape */
+    z-index: 10; /* Above other elements */
+}
+
+button.prev {
+    left: -20px; /* Position left */
+}
+
+button.next {
+    right: -20px; /* Position right */
+}

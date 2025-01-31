@@ -1,0 +1,37 @@
+/* Home button for Default Layout*/
+.home-button {
+    position: fixed;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    margin-top: 11.5px;
+    margin-left: 967px;
+    z-index: 2;
+}
+.home-button:hover {
+    background-color: #c288e9;
+    color: blue;
+    z-index: 2;
+}
+.home-button1 {
+    position: fixed;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    margin-top: -8.5px;
+    margin-left: 967px;
+    z-index: 2;
+}
+.home-button1:hover {
+    background-color: #c288e9;
+    color: blue;
+    z-index: 2;
+}

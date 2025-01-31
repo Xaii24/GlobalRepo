@@ -1,0 +1,334 @@
+.items-grid .item#item-22 {
+    position: relative;
+    margin-right: 0px;
+}
+.drape-grid .item::after {
+    content: ""; /* Empty content for the pseudo-element */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px; /* Adjust as needed */
+    background-color: #eee5f6; /* Light gray color */
+}
+.item-24.item-name {
+    position: relative;
+    left: 70px; /* Move the name to the right */
+    z-index: -1;
+}
+#item-24 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -120px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-24 .packaging-table {
+    margin-left: 220px;
+    margin-top: -580px;
+}
+#item-24 .industries-section {
+    font-size: 14px;
+    margin-top: -380px;
+    margin-right: -1050px;
+}
+.item-25.item-name {
+    position: relative;
+    left: 70px; /* Move the name to the right */
+    z-index: -1;
+}
+#product-display-25 {
+    margin-left: 100px; /* Example: Move this specific description to the right */
+    color: blue; /* Customize the style for this item */
+}
+#item-25 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -120px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-25 .packaging-table {
+    margin-left: 220px;
+    margin-top: -590px;
+}
+#item-25 .industries-section {
+    font-size: 14px;
+    margin-top: -430px;
+    margin-right: -1050px;
+}
+#product-display-26 {
+    margin-left: 50px; /* Example: Move this specific description to the right */
+    color: blue; /* Customize the style for this item */
+}
+#item-26 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -115px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-26 .packaging-table {
+    margin-left: 220px;
+    margin-top: -595px;
+}
+#item-26 .industries-section {
+    font-size: 14px;
+    margin-top: -605px;
+    margin-right: -1050px;
+}
+.item-26.item-name {
+    position: relative;
+    left: 170px; /* Move the name to the right */
+    z-index: -1;
+}
+#product-display-27 {
+    margin-left: 80px; /* Example: Move this specific description to the right */
+    color: blue; /* Customize the style for this item */
+}
+#item-27 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -115px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-27 .packaging-table {
+    margin-left: 220px;
+    margin-top: -595px;
+}
+#item-27 .industries-section {
+    font-size: 14px;
+    margin-top: -430px;
+    margin-right: -1050px;
+}
+.item-28.item-name {
+    position: relative;
+    left: 130px; /* Move the name to the right */
+    z-index: -1;
+}
+#product-display-28 {
+    margin-left: 60px; /* Example: Move this specific description to the right */
+    color: blue; /* Customize the style for this item */
+}
+#item-28 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -115px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-28 .packaging-table {
+    margin-left: 220px;
+    margin-top: -595px;
+}
+#item-28 .industries-section {
+    font-size: 14px;
+    margin-top: -500px;
+    margin-right: -1050px;
+}
+.item-29.item-name {
+    position: relative;
+    left: 135px; /* Move the name to the right */
+    z-index: -1;
+}
+#item-29 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -115px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-29 .packaging-table {
+    margin-left: 220px;
+    margin-top: -595px;
+}
+#item-29 .industries-section {
+    font-size: 14px;
+    margin-top: -500px;
+    margin-right: -1050px;
+}
+.item-30.item-name {
+    position: relative;
+    left: 100px; /* Move the name to the right */
+    z-index: -1;
+}
+#item-30 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -115px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-30 .packaging-table {
+    margin-left: 220px;
+    margin-top: -595px;
+}
+#item-30 .industries-section {
+    font-size: 14px;
+    margin-top: -430px;
+    margin-right: -1050px;
+}
+#product-display-30 {
+    margin-left: 60px; /* Example: Move this specific description to the right */
+    color: blue; /* Customize the style for this item */
+}
+#product-display-31 {
+    margin-left: 60px; /* Example: Move this specific description to the right */
+    color: blue; /* Customize the style for this item */
+}
+#item-31 .industries-section {
+    font-size: 14px;
+    margin-top: -610px;
+    margin-right: -260px;
+}
+.item-31.item-name {
+    position: relative;
+    left: 25px; /* Move the name to the right */
+    z-index: -1;
+}
+.item-32.item-name {
+    position: relative;
+    left: 60px; /* Move the name to the right */
+    z-index: -1;
+}
+#item-32 .industries-section {
+    font-size: 14px;
+    margin-top: -328px;
+    margin-right: -50px;
+}
+#product-display-32 {
+    margin-left: 90px; /* Example: Move this specific description to the right */
+    color: blue; /* Customize the style for this item */
+}
+.items-grid .item#item-10 {
+    position: relative;
+    margin-right: 0px;
+}
+.item-33.item-name {
+    position: relative;
+    left: 70px; /* Move the name to the right */
+    z-index: -1;
+}
+.item-34.item-name {
+    position: relative;
+    left: 60px; /* Move the name to the right */
+    z-index: -1;
+}
+#product-display-34 {
+    margin-left: 90px; /* Example: Move this specific description to the right */
+    color: blue; /* Customize the style for this item */
+}
+#item-34 .industries-section {
+    font-size: 14px;
+    margin-top: -290px;
+    margin-right: -1040px;
+}
+#item-34 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -115px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-34 .packaging-table {
+    margin-left: 220px;
+    margin-top: -595px;
+}
+.item-35.item-name {
+    position: relative;
+    left: 220px; /* Move the name to the right */
+    z-index: -1;
+}
+#product-display-35 {
+    margin-left: 90px; /* Example: Move this specific description to the right */
+    color: blue; /* Customize the style for this item */
+}
+#item-35 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -115px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-35 .packaging-table {
+    margin-left: 220px;
+    margin-top: -595px;
+}
+#item-35 .industries-section {
+    font-size: 14px;
+    margin-top: -290px;
+    margin-right: -1040px;
+}
+.item-36.item-name {
+    position: relative;
+    left: 220px; /* Move the name to the right */
+    z-index: -1;
+}
+#item-36 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -115px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-36 .packaging-table {
+    margin-left: 220px;
+    margin-top: -595px;
+}
+#item-36 .industries-section {
+    font-size: 14px;
+    margin-top: -290px;
+    margin-right: -1040px;
+}
+#product-display-36 {
+    margin-left: 90px; /* Example: Move this specific description to the right */
+    color: blue; /* Customize the style for this item */
+}
+.item-37.item-name {
+    position: relative;
+    left: 140px; /* Move the name to the right */
+    z-index: -1;
+}
+#product-display-37 {
+    margin-left: 90px; /* Example: Move this specific description to the right */
+    color: blue; /* Customize the style for this item */
+}
+#item-37 .industries-section {
+    font-size: 14px;
+    margin-top: -290px;
+    margin-right: -1040px;
+}
+#item-37 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -115px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-37 .packaging-table {
+    margin-left: 220px;
+    margin-top: -595px;
+}

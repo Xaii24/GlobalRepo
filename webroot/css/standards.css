@@ -1,0 +1,96 @@
+/* Styles for item standards */
+.item-standards .standards-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: -640px;
+    margin-right: 830px;
+    color: var(--clr-primary-400); /* Use the custom property here */
+}
+/* Create a flex container to align standard items horizontally */
+.item-standards .certifications {
+    margin-top: 10px;
+    display: flex; /* Use flexbox to arrange items in a row */
+    flex-wrap: wrap; /* Allow items to wrap onto a new line if needed */
+    gap: 20px; /* Add space between each standard item */
+}
+/* Style for each standard item */
+.item-standards .standard-item {
+    font-size: 16px;
+    color: black;
+    min-width: 100px; /* Ensure each item has a minimum width */
+    margin-top: -40px;
+}
+:root {
+    --clr-primary-400: #00a28f;
+}
+/* Add responsiveness if needed: On smaller screens, stack items vertically */
+@media (max-width: 768px) {
+    .item-standards .certifications {
+        flex-direction: column; /* Stack items vertically on small screens */
+    }
+
+    .item-standards .standard-item {
+        min-width: 100%; /* Make each item take up full width */
+        text-align: left; /* Align text to the left on smaller screens */
+    }
+}
+/* standards for items2 Below*/
+/* Styles for item standards */
+/* Target standards header for item 2 */
+#item-2 .standards-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: -650px;
+    margin-right: 860px;
+}
+
+/* Create a flex container to align standard items horizontally for item 2 */
+#item-2 .certifications {
+    margin-top: 10px;
+    display: flex; /* Use flexbox to arrange items in a row */
+    flex-wrap: wrap; /* Allow items to wrap onto a new line if needed */
+    gap: 5px; /* Add space between each standard item */
+}
+
+/* Style for each standard item within item 2 */
+#item-2 .standard-item {
+    font-size: 16px;
+    color: black;
+    min-width: 100px; /* Ensure each item has a minimum width */
+    margin-top: -40px;
+}
+/* You can add specific styles if you want the image to appear in a particular location */
+.item-img {
+    margin-top: -45px; /* Example: add space at the top */
+    margin-left: 470px;
+}
+.item-img1 {
+    margin-top: -33px; /* Example: add space at the top */
+    margin-left: 530px;
+}
+/* standards for items3 Below*/
+/* Styles for item standards */
+/* Target standards header for item 3 */
+#item-3 .standards-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: -640px;
+    margin-right: 860px;
+}
+/* Create a flex container to align standard items horizontally for item 3 */
+#item-3 .certifications {
+    margin-top: 10px;
+    display: flex; /* Use flexbox to arrange items in a row */
+    flex-wrap: wrap; /* Allow items to wrap onto a new line if needed */
+    gap: 5px; /* Add space between each standard item */
+}
+/* Style for each standard item within item 3 */
+#item-3 .standard-item {
+    font-size: 16px;
+    color: black;
+    min-width: 100px; /* Ensure each item has a minimum width */
+    margin-top: -40px;
+}

@@ -1,0 +1,40 @@
+/* Individual item styling */
+.items-grid .item#item-5 {
+    position: relative;
+    margin-right: 630px; /* Moves the item with id="item-5" 50px to the right */
+}
+/* Style for the industries section */
+#item-5 .industries-section {
+    font-size: 14px;
+    margin-top: -1045px;
+    margin-right: -900px;
+}
+/* Target only the item name for item 4 */
+.item-5.item-name {
+    /* Example: Move the name text for item 4 */
+    position: relative;
+    left: 30px; /* Move the name to the right */
+    z-index: -1;
+}
+/* Item Info Section (right side) for item-5 */
+#item-5 .item-info {
+    flex: 1 !important;
+    max-width: 700px !important;
+    background-color: #efe6f5 !important;
+    padding: 20px !important;
+    border-radius: 8px !important;
+    box-shadow: 0 16px 8px rgba(2, 2, 3, 0.1) !important;
+    min-height: 200px !important;
+    font-size: 1.5rem !important;
+    color: #333 !important;
+    line-height: 1.6 !important;
+    z-index: -2 !important;
+}
+
+#item-5 .card-info {
+    margin-top: 35px;
+}
+.card-adjust-2 {
+    position: relative;
+    top: -40px; /* Moves the element 20px upwards */
+}

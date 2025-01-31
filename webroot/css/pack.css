@@ -1,0 +1,256 @@
+.items-grid .item#item-12 {
+    position: relative;
+    margin-right: 0px;
+}
+.item-12.item-name {
+    position: relative;
+    left: 50px; /* Move the name to the right */
+    z-index: -1;
+}
+#item-12.product-description {
+    position: relative; /* Allows movement */
+}
+#item-12 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -445px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-12 .packaging-table {
+    margin-left: 220px;
+    margin-top: -580px;
+}
+.item-13.item-name {
+    position: relative;
+    left: 60px; /* Move the name to the right */
+    z-index: -1;
+}
+#item-13 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -480px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-13 .packaging-table {
+    margin-left: 220px;
+    margin-top: -580px;
+}
+.item-14.item-name {
+    position: relative;
+    left: 40px; /* Move the name to the right */
+    z-index: -1;
+}
+#item-14 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -443px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-14 .packaging-table {
+    margin-left: 220px;
+    margin-top: -580px;
+}
+/* Specific Grid Styling for packProduct */
+.pack-grid {
+    display: grid;
+    grid-template-columns: repeat(3, calc(33.33% - 10px)); /* Adjusts columns */
+    gap: 17px;
+    margin-left: auto;
+    width: fit-content;
+    margin-top: 70px;
+    margin-right: 20px;
+}
+.pack-grid .item::after {
+    content: ""; /* Empty content for the pseudo-element */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px; /* Adjust as needed */
+    background-color: #eee5f6; /* Light gray color */
+}
+.item-15.item-name {
+    position: relative;
+    left: 170px; /* Move the name to the right */
+    z-index: -1;
+}
+#item-15 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -443px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-15 .packaging-table {
+    margin-left: 220px;
+    margin-top: -580px;
+}
+.item-16.item-name {
+    position: relative;
+    left: 20px; /* Move the name to the right */
+    z-index: -1;
+}
+#item-16 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -443px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-16 .packaging-table {
+    margin-left: 220px;
+    margin-top: -580px;
+}
+#item-17 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -443px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-17 .packaging-table {
+    margin-left: 220px;
+    margin-top: -580px;
+}
+.item-18.item-name {
+    position: relative;
+    left: 55px; /* Move the name to the right */
+    z-index: -1;
+}
+#item-18 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -443px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-18 .packaging-table {
+    margin-left: 220px;
+    margin-top: -580px;
+}
+#product-display-19 {
+    margin-left: 100px; /* Example: Move this specific description to the right */
+    color: blue; /* Customize the style for this item */
+}
+#item-19 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -443px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-19 .packaging-table {
+    margin-left: 220px;
+    margin-top: -580px;
+}
+.item-20.item-name {
+    position: relative;
+    left: 75px; /* Move the name to the right */
+    z-index: -1;
+}
+#item-20 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -120px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-20 .packaging-table {
+    margin-left: 220px;
+    margin-top: -590px;
+}
+#item-20 .industries-section {
+    font-size: 14px;
+    margin-top: -500px;
+    margin-right: -1050px;
+}
+.item-21.item-name {
+    position: relative;
+    left: 60px; /* Move the name to the right */
+    z-index: -1;
+}
+#item-21 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -130px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-21 .packaging-table {
+    margin-left: 220px;
+    margin-top: -600px;
+}
+#item-21 .industries-section {
+    font-size: 14px;
+    margin-top: -430px;
+    margin-right: -1050px;
+}
+.item-22.item-name {
+    position: relative;
+    left: 120px; /* Move the name to the right */
+    z-index: -1;
+}
+#item-22 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -118px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-22 .packaging-table {
+    margin-left: 220px;
+    margin-top: -600px;
+}
+#item-22 .industries-section {
+    font-size: 14px;
+    margin-top: -640px;
+    margin-right: -1050px;
+}
+.item-23.item-name {
+    position: relative;
+    left: 100px; /* Move the name to the right */
+    z-index: -1;
+}
+#item-23 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 190px;
+    margin-top: -118px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-23 .packaging-table {
+    margin-left: 220px;
+    margin-top: -600px;
+}
+#item-23 .industries-section {
+    font-size: 14px;
+    margin-top: -640px;
+    margin-right: -1050px;
+}

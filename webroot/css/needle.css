@@ -1,0 +1,74 @@
+/* Ensure no horizontal overflow on the body */
+body {
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+/* Individual item styling */
+.items-grid .item#item-6 {
+    position: relative;
+    margin-right: 315px; /* Moves the item with id="item-6" 50px to the right */
+}
+
+/* Apply only within the grid container */
+.items-grid #item-6::after {
+    content: ""; /* Empty content for the pseudo-element */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 210px; /* Height of the colored section */
+    background-color: #eee5f6; /* Light gray color */
+    z-index: -1; /* Places it behind the text */
+}
+/* Style for the industries section */
+#item-6 .industries-section {
+    font-size: 14px;
+    margin-top: -700px; /* Keeps the positioning in place */
+    margin-right: -800px; /* Keeps the positioning in place */
+    position: relative; /* Make sure it remains in place */
+    z-index: 1; /* Ensure it's on top of other elements */
+}
+/* Target details content */
+#item-6 .details-content {
+    right: 50px; /* Move the name to the right */
+    position: relative;
+}
+/* Target only the item name for item 6 */
+.item-6.item-name {
+    position: relative;
+    left: 60px; /* Move the name to the right */
+    z-index: -1;
+}
+.card-adjust {
+    position: relative;
+    top: -40px; /* Moves the element 20px upwards */
+}
+/*items 7 Below*/
+.items-grid #item-7::after {
+    content: ""; /* Empty content for the pseudo-element */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 210px; /* Height of the colored section */
+    background-color: #eee5f6; /* Light gray color */
+    z-index: -1; /* Places it behind the text */
+}
+/* Style for the industries section */
+#item-7 .industries-section {
+    font-size: 14px;
+    margin-top: -700px; /* Keeps the positioning in place */
+    margin-right: -800px; /* Keeps the positioning in place */
+    position: relative; /* Make sure it remains in place */
+    z-index: 1; /* Ensure it's on top of other elements */
+}
+/* Target details content */
+#item-7 .details-content {
+    right: 50px; /* Move the name to the right */
+    position: relative;
+}
+/* Target only the item name for item 6 */
+.item-7.item-name {
+    position: relative;
+    left: 60px; /* Move the name to the right */
+    z-index: -1;
+}

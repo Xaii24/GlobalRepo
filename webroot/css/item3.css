@@ -1,0 +1,105 @@
+/* items 3 */
+/* items 3 name on card*/
+.item-3 {
+    font-size: 3.5rem;
+    color: #2f2c2c;
+    left: 60px; /* Move the name to the right */
+    font-family: "Kanit", sans-serif; /* Apply Kanit font */
+}
+#item-3 .product-details {
+    font-family: "Arial", sans-serif;
+    color: #333;
+    margin-right: 430px;
+    max-width: 340px;
+}
+/* Detail text title */
+#item-3 .product-details h3 {
+    color: var(--clr-primary-400); /* Use the custom property here */
+    font-weight: bold;
+    margin-bottom: 20px; /* Add space below the heading */
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: 12.5px;
+}
+/* Detail texts under title */
+#item-3 .detail-item {
+    font-size: 1.3rem;
+    margin: 5px 0;
+}
+/* Controls top part of value pairs for product details for item 2 */
+#item-3 .detail-item strong {
+    font-weight: bold;
+    margin-right: 10px;
+}
+/* Controls line under text for details item 3 */
+#item-3 .product-details hr {
+    width: 130%; /* Adjust the percentage or use px values for specific length */
+    transform: translateX(-12%); /* Moves the line slightly left */
+}
+/* items 3 DISPLAY ON LEFT */
+.key-features {
+    font-weight: bold; /* Make the key features bold */
+    font-size: 18px; /* Adjust the font size */
+}
+/* item 3 for Recommended below*/
+/* item 3 for Recommended*/
+.item-3 .item-recommendation-content {
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: -15px; /* Indentation for bullets */
+    margin-bottom: -10px; /* Reduced space between items */
+}
+/* item 3 for Recommended texts*/
+.item-3 .item-recommendation-content h3 {
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    top: -320px; /* Moves the h3 10px up */
+    color: var(
+        --clr-primary-400
+    ); /* Optional: You can set the color here too */
+    margin-right: -20px;
+}
+/* item 2 for Recommended texts*/
+.item-3 .item-recommendation-content ul li {
+    color: black;
+    position: relative;
+    top: -430px; /* Moves the h3 10px up */
+}
+.item-3 .item-recommendation-content ul {
+    padding-left: 60px; /* Indentation for list items */
+    margin-top: 0; /* Reset any extra margin at the top */
+    margin-bottom: 0; /* No extra space below the list */
+    list-style-type: disc;
+    color: #2f2c2c;
+    font-weight: bold;
+    line-height: 1.4; /* More compact line height for list */
+}
+/* Style for individual list items */
+.item-3 .item-recommendation-content li {
+    margin-bottom: -42px; /* Reduced space between items */
+    font-size: 14px;
+    line-height: 1.4; /* Adjust the line height */
+    font-weight: normal;
+}
+/* item 3 for industries*/
+#item-3 .industries-section {
+    font-size: 14px;
+    margin-top: -320px;
+    margin-right: 850px;
+}
+#item-3 .industries-section strong {
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: -40px;
+    color: var(--clr-primary-400); /* Use the custom property here */
+    margin-left: 5px; /* Indentation for bullets */
+    margin-top: -200px; /* Indentation for bullets */
+}
+#item-3 .industries-section ul {
+    list-style-type: disc; /* Bullet points */
+    margin-left: 0px; /* Indentation for bullets */
+    color: #2f2c2c;
+    font-weight: bold;
+    margin-left: -10px; /* Indentation for bullets */
+}

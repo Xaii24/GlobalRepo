@@ -1,0 +1,93 @@
+/*ITEM 1 Below*/
+/* Styling for the packaging header inside item with id 'item-4' */
+.packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 860px;
+    margin-top: -905px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+.packaging-table {
+    margin-top: -470px;
+    margin-left: 670px;
+}
+.packaging-table table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-left: 230px;
+}
+.packaging-table th,
+.packaging-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+.packaging-note {
+    font-size: 1em;
+    font-style: italic;
+    color: #555;
+    margin-top: -60px;
+    margin-left: 845px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+}
+:root {
+    --clr-primary-400: #00a28f;
+}
+/*ITEM 2 Below*/
+#item-2 .packaging-header {
+    margin-left: 860px;
+    font-size: 24px;
+    margin-top: -949px;
+}
+#item-2 .packaging-table {
+    margin-left: 670px;
+    margin-top: -470px;
+}
+#item-2 .packaging-table table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-left: 230px;
+}
+#item-2 .packaging-table th,
+#item-2 .packaging-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+#item-2 .packaging-note {
+    font-size: 1em;
+    font-style: italic;
+    color: #555;
+    margin-top: -50px;
+    margin-left: 845px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+}
+/*ITEM 3 Below*/
+#item-3 .packaging-header {
+    margin-left: 860px;
+    font-size: 24px;
+    margin-top: -698.5px;
+}
+/*ITEM 3 Move entire grind*/
+#item-3 .packaging-table {
+    margin-left: 670px;
+    margin-top: -470px;
+}
+#item-3 .packaging-table table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-left: 230px;
+}
+#item-3 .packaging-table th,
+#item-3 .packaging-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+#item-3 .packaging-note {
+    font-size: 1em;
+    font-style: italic;
+    color: #555;
+    margin-top: -6 0px;
+    margin-left: 845px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+}

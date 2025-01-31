@@ -1,0 +1,107 @@
+/* Individual item styling */
+#item-4.item {
+    border: 1px solid rgba(167, 130, 197, 0.741);
+    margin: 0;
+    padding: 0; /* Optional: Border around the item */
+    text-align: center; /* Center-aligns text and image */
+    height: 450px; /* Set the height of the item */
+    width: 315px; /* Set the height of the item */
+    position: relative; /* Enables positioning for pseudo-elements */
+    overflow: hidden; /* Ensures background stays within the item */
+    margin-right: 630px;
+}
+/* For item with id 4 */
+#item-info-4 .card-info {
+    position: relative;
+    margin-right: 20px;
+    margin-top: 90px;
+}
+/* Target only the item name for item 4 */
+.item-4.item-name {
+    /* Example: Move the name text for item 4 */
+    position: relative;
+    left: 115px; /* Move the name to the right */
+}
+/* item 2 for Recommended texts*/
+.item-4 .item-recommendation-content h3 {
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    bottom: 445px; /* Moves the h3 10px up */
+    color: var(
+        --clr-primary-400
+    ); /* Optional: You can set the color here too */
+    margin-right: -20px;
+}
+.item-4 .item-recommendation-content ul {
+    position: relative;
+    padding-left: 30px; /* Indentation for list items */
+    margin-top: 0; /* Reset any extra margin at the top */
+    margin-top: -495px; /* No extra space below the list */
+    list-style-type: disc;
+    color: #2f2c2c;
+    line-height: 1.4; /* More compact line height for list */
+}
+#item-4 .packaging-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--clr-primary-400); /* Use the CSS variable here */
+    margin-left: 860px;
+    margin-top: -645px;
+    font-size: 24px;
+}
+/*Move actual tables*/
+#item-4 .packaging-table {
+    margin-left: 670px;
+    margin-top: -418px;
+}
+/* Style for the industries section */
+#item-4 .industries-section {
+    font-size: 14px;
+    margin-top: -465px;
+    margin-right: 830px;
+    position: relative;
+}
+#item-4 .industries-section strong {
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: -40px;
+    color: var(--clr-primary-400); /* Use the custom property here */
+    margin-left: 15px; /* Indentation for bullets */
+}
+#item-4 .industries-section ul {
+    list-style-type: disc; /* Bullet points */
+    margin-left: 0px; /* Indentation for bullets */
+    color: #2f2c2c;
+    font-weight: bold;
+}
+#item-4 .standards-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: -1150px;
+    margin-right: 860px;
+}
+
+/* Create a flex container to align standard items horizontally for item 2 */
+#item-4 .certifications {
+    margin-top: 10px;
+    display: flex; /* Use flexbox to arrange items in a row */
+    flex-wrap: wrap; /* Allow items to wrap onto a new line if needed */
+    gap: 5px; /* Add space between each standard item */
+}
+
+/* Style for each standard item within item 2 */
+#item-4 .standard-item {
+    font-size: 16px;
+    color: black;
+    min-width: 100px; /* Ensure each item has a minimum width */
+    margin-top: -40px;
+}
+#item-img1-4 {
+    /* Styles specific to item1 image for id = 4 */
+    position: relative;
+    margin-top: -25px; /* Example: add space at the top */
+    margin-left: 530px;
+}
