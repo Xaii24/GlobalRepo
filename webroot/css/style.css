@@ -97,7 +97,7 @@ html {
     left: 0; /* Aligns it to the left */
     width: 100%; /* Makes the banner stretch across the full width */
     height: 69px; /* Height of the banner (adjust as needed) */
-    background-color: rgba(200, 182, 205, 0.937);
+    background: linear-gradient(90deg, #dac7eb, #d7b9df, #c88dd9);
     z-index: 2; /* Ensures the banner is on top of other content */
     opacity: 0.9.5;
 }
@@ -129,39 +129,6 @@ html {
         cubic-bezier(0.215, 0.61, 0.355, 1) both;
     animation: tracking-in-contract-bck-bottom 4s
         cubic-bezier(0.215, 0.61, 0.355, 1) both; */
-}
-/* Define the animation */
-@-webkit-keyframes tracking-in-contract-bck-bottom {
-    0% {
-        letter-spacing: 1em;
-        -webkit-transform: translateZ(400px) translateY(300px);
-        transform: translateZ(400px) translateY(300px);
-        opacity: 0;
-    }
-    40% {
-        opacity: 0.6;
-    }
-    100% {
-        -webkit-transform: translateZ(0) translateY(0);
-        transform: translateZ(0) translateY(0);
-        opacity: 1;
-    }
-}
-@keyframes tracking-in-contract-bck-bottom {
-    0% {
-        letter-spacing: 1em;
-        -webkit-transform: translateZ(400px) translateY(300px);
-        transform: translateZ(400px) translateY(300px);
-        opacity: 0;
-    }
-    40% {
-        opacity: 0.6;
-    }
-    100% {
-        -webkit-transform: translateZ(0) translateY(0);
-        transform: translateZ(0) translateY(0);
-        opacity: 1;
-    }
 }
 .contact-us {
     padding: 5px 10px;
